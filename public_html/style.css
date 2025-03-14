@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(179, 214, 228);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+li {
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; 
+    background: #00cc99;
+    padding: 5px 16px;
+    margin: 3px 0;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: url("images/cursor.png"), auto;
+}
+
+a:hover {
+    color: #333;
+}
+
+.text-border {
+    color: white;
+
+    text-shadow: 
+        1px 1px 0 #000,  
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+}
+
+
+#first-page {
+    background-image: url("images/HowlsCastle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    padding: 10% 0 5% 0;
+}
+
+#social-div a {
+    background-color: darkslategrey;
+}
+
+#lovad-courses-ul a {
+    background-color: #8b91f6;
+}
+
+#my-name {
+    font-size: 20px;
+    margin: 0 20px 20px 20px;
+}
+#my-name h1{
+    padding: 0;
+    margin: 0;
+}
+
+#short-me {
+    margin: 0 70px 0 70px;
+}
+
+#experiences, #educations, #projects, #cv {
+    margin: 10px auto;
+    width: 96%;
+    padding: 10px 0 10px 0;
+    border: 6px groove lightblue;
+}
+
+#experiences {
+    background-color: rgb(215, 238, 207);
+}
+
+#ghost-experiences-company {
+    color: rgb(215, 238, 207);
+}
+
+#educations {
+    background-color:beige;
+}
+
+#I-ed, #II-ed, #I-project, #II-project, #III-project, #akbank-summer, #algoteam, #IV-project{
+    padding: 10px;
+    
+}
+
+#IV-project a,#I-project a, #II-project a, #III-project a{
+    color: black;
+    background: beige;
+    display: inline-block;
+    border-radius: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    cursor: url("images/cursor.png"), auto;
+}
+
+#II-project a:hover, #III-project a:hover, #I-project a:hover, #IV-project a:hover, #exp-script a:hover {
+    color: #5f7bca;
+}
+
+#exp-script a {
+    color: #000bbf;
+    background: rgb(215, 238, 207);
+    padding: 0;
+    margin: 0;
+    cursor: url("images/cursor.png"), auto;
+}
+
+#ed-info {
+    padding: 5px 0 0 40px;
+}
+
+#projects {
+    background-color: beige;
+}
+
+#more {
+    text-align: center;
+}
+
+#project-tech, #exp-time, #ed-time {
+    font-size: 8px;
+    font-style: italic;
+}
+
+#part-titles {
+    text-align: center;
+}
+
+#cv {
+    background-color:rgb(215, 238, 207);
+}
+
+#pdf-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width:70%;
+    height:650px;
+}
+
+#message {
+    width: 100px; 
+    padding: 20px;
+    color: brown;
+    animation: rotate 2s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#akbank {
+    color: #dd0004;
+}
+
+#ituacm {
+    color: #003a97;
+}

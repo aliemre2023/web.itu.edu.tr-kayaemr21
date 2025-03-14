@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Emre's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="first-page">
+        <div id="my-name">
+            <h1>MR</h1> 
+            Ali Emre Kaya
+        </div>
+        <div class="text-border" id="short-me">
+            <p>Hi there</p>
+        </div>
+        <div id="buttons-div">
+            <a href="#educations">Educations</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#projects">Projects</a>
+            <a href="#cv">CV</a>
+        </div>
+        <div id="message">
+            <img src="images/shield.png" alt="Shield">
+        </div>
+        <div id="social-div">
+            <a href="https://github.com/aliemre2023">Github</a>
+            <a href="https://www.linkedin.com/in/aliemre2023/">LinkedIn</a>
+        </div>
+    </div>
+
+    
+
+    <div id="educations">
+        <h2 class="text-border" id="part-titles">Educations</h2>
+        <div id="I-ed">
+            <h3>Istanbul Technical University <span id="ed-time"> (2021 - 2026 est.)</span></h3>
+            <ul id="lovad-courses-ul">
+                <li>Computer Engineering</li>
+                <li>Most Loved Courses: 
+                    <a href="https://github.com/aliemre2023/ITU-CMPE/tree/main/BLG345%20-%20Logic%20%26%20Computability">Logic & Computability</a> 
+                    <a href="https://github.com/aliemre2023/ITU-CMPE/tree/main/BLG202%20-%20Numerical%20Methods">Numerical Methods</a>  
+                    <a href="https://github.com/El-Primos/blg317">Database Systems</a>
+                </li>
+            </ul>
+        </div>
+        <div id="II-ed">
+            <h3>Nevzat Saygan Levent Saygan Anatolian High School <span id="ed-time"> (2017 - 2021)</span></h3>
+        </div>
+    </div>
+
+    <div id="experiences">
+        <h2 class="text-border" id="part-titles">Experiences</h2>
+        <div id="akbank-summer">
+            <h3><span id="akbank">Akbank - Software Intern</span> <span id="exp-time"> (01.07.2024 - 29.09.2024)</span></h3>
+            <div id="exp-info">
+                <ul>
+                    <li>I developed a <span id="exp-script"><a href="https://github.com/aliemre2023/unittest-generator">Python script</a></span> that autonomously generates test cases for Java files using Copilot, which greatly enhanced the efficiency of our testing process.</li>
+                    <li>I gained hands-on experience integrating AI tools with software development workflows, learning how to leverage new technologies in practical applications.</li>
+                    <li>Throughout the project, I faced numerous challenges and discussed them with my mentors. Together, we worked through these issues and found effective solutions.</li>
+                </ul>
+            </div>
+            <h3><span id="ghost-experiences-company">Akbank</span> <span id="akbank">- Intern</span> <span id="exp-time"> (29.01.2024 - 10.02.2024)</span></h3>
+            <div id="exp-info">
+                <ul>
+                    <li>Campaign preparation and editing were carried out for more than 10 million customers.</li>
+                    <li>Accuracy scanning was performed on the campaigns using SQL basics.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="algoteam">
+            <h3><span id="ituacm">ITU ACM AlgoTeam - Member </span><span id="exp-time"> (2022 - 2025)</span></h3>
+            <div id="exp-info">
+                <ul>
+                    <li>I contributed to the organization and operation of algorithm courses.</li>
+                    <li>I tested questions for algorithm competitions (like <span id="exp-script"><a href="https://algocomp.ituacm.com/">algocomp</a></span>) and helped with the process.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <h2 class="text-border" id="part-titles">Projects</h2>
+        <div id="IV-project">
+            <h3><a href="https://github.com/aliemre2023/unimals">Unimals</a> <a id="internet" href="https://unimals.vercel.app/">🌐🤡🐕</a> <span id="project-tech"> TypeScript, Next.js, Flask, PostgreSQL, Socket.io, AWS S3</span></h3>
+            <div id="project-info">
+                <ul>
+                    <li>Engineered a full-stack social networking platform for university students using Next.js with PrimeReact components for responsive and accessible UI design.</li>
+                    <li>Designed a modular backend architecture using Flask Blueprints for RESTful APIs, managing user data and file storage with PostgreSQL and AWS S3.</li>
+                    <li>Implemented real-time messaging system with Socket.io, storing conversation history in PostgreSQL database.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="I-project">
+            <h3><a href="https://github.com/aliemre2023/driver-control">Driver Control</a> <span id="project-tech"> Python, OpenCV, DeepFace, PySide6 (Qt)</span></h3>
+            <div id="project-info">
+                <ul>
+                    <li>Developed a user recognition system using an OpenCV model to allow registered users to drive the car.</li>
+                    <li>Implemented a risk assessment algorithm that calculates a risk ratio based on the driver’s current emotion and historical driving data.</li>
+                    <li>Integrated a continuous learning mechanism that retrains the driver’s recognition model after every drive to keep the system updated.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="II-project">
+            <h3><a href="https://github.com/aliemre2023/atm-simulation">ATM Simulation</a> <span id="project-tech"> Java, SQLite, JUnit, PowerMockito, JDBC</span></h3>
+            
+            <div id="project-info">
+                <ul>
+                    <li>Developed a Java-based system with SQLite integration for managing customer and storage data, ensuring seamless data handling and persistence.</li>
+                    <li>Implemented unit tests using JUnit and PowerMockito, ensuring high test coverage and reliability by mocking external dependencies like email sending and database interactions.</li>
+                    <li>Created robust functionalities for email drafting and sending using JavaMail, while ensuring data consistency through comprehensive CRUD operations in the database.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="more">
+            <a href="https://github.com/aliemre2023">...more...</a>
+        </div>
+    </div>
+
+    <div id="cv">
+        <h2 class="text-border" id="part-titles">CV</h2>
+        <iframe id="pdf-resume" src="documents/aliemre_s_resume.pdf" width="100%" height="600px"></iframe>
+    </div>
+</body>
+</html>
